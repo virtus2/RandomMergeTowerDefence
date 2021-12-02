@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5de963a130a4174ea0f5af0120b2d81, type: 3}
+  m_Name: IceTower
+  m_EditorClassIdentifier: 
+  towerName: Ice Tower
+  towerPrefab: {fileID: 3888952931661493135, guid: 529c88a13790fec48971d43b5fcfb971, type: 3}
+  upgradeDamage: 4
+  weapon:
+  - towerType: 3
+    sprite: {fileID: 21300000, guid: a394a30e81b94da4a9e97652fa84edda, type: 3}
+    damage: 3
+    upgradeDamage: 1
+    rate: 1
+    range: 1.5
+    cost: 0
+    sell: 24
+  - towerType: 3
+    sprite: {fileID: 21300000, guid: 7441dee8c973fef40b11683fa16a952b, type: 3}
+    damage: 6
+    upgradeDamage: 2
+    rate: 0.8
+    range: 1.5
+    cost: 0
+    sell: 44
+  - towerType: 3
+    sprite: {fileID: 21300000, guid: 9e290e724da5da54d9119992a594c835, type: 3}
+    damage: 12
+    upgradeDamage: 3
+    rate: 0.6
+    range: 1.5
+    cost: 0
+    sell: 96
+  - towerType: 3
+    sprite: {fileID: 21300000, guid: cba086db19bfb494e928178a5fa4288e, type: 3}
+    damage: 24
+    upgradeDamage: 4
+    rate: 0.4
+    range: 1.5
+    cost: 0
+    sell: 201
+  - towerType: 3
+    sprite: {fileID: 21300000, guid: 7a2c5f5a98ce9284b872c4d414f9316f, type: 3}
+    damage: 48
+    upgradeDamage: 5
+    rate: 0.4
+    range: 1.5
+    cost: 0
+    sell: 400

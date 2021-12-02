@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5de963a130a4174ea0f5af0120b2d81, type: 3}
+  m_Name: CannonTower
+  m_EditorClassIdentifier: 
+  towerName: Cannon Tower
+  towerPrefab: {fileID: 6225819342602493504, guid: 875087a0c7b37964698f37a47b225137, type: 3}
+  upgradeDamage: 1
+  weapon:
+  - towerType: 4
+    sprite: {fileID: 21300000, guid: 19a9a06443304db4ab9c8c6f7b4e94f9, type: 3}
+    damage: 2
+    upgradeDamage: 1
+    rate: 1.5
+    range: 2.25
+    cost: 0
+    sell: 24
+  - towerType: 4
+    sprite: {fileID: 21300000, guid: 5ce3acb8139cc054381e7aa47a9de9dd, type: 3}
+    damage: 4
+    upgradeDamage: 1
+    rate: 1.5
+    range: 2.25
+    cost: 0
+    sell: 44
+  - towerType: 4
+    sprite: {fileID: 21300000, guid: 83a345084d7517244aec2478c1b885aa, type: 3}
+    damage: 8
+    upgradeDamage: 2
+    rate: 1.5
+    range: 2.25
+    cost: 0
+    sell: 96
+  - towerType: 4
+    sprite: {fileID: 21300000, guid: c8fbfd6d177c4954fabd93081242578d, type: 3}
+    damage: 16
+    upgradeDamage: 2
+    rate: 1.5
+    range: 2.25
+    cost: 0
+    sell: 201
+  - towerType: 4
+    sprite: {fileID: 21300000, guid: aaf5c4264b25a83408d4d72951b67f45, type: 3}
+    damage: 32
+    upgradeDamage: 3
+    rate: 1.5
+    range: 2.25
+    cost: 0
+    sell: 400

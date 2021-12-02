@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5de963a130a4174ea0f5af0120b2d81, type: 3}
+  m_Name: GunTower
+  m_EditorClassIdentifier: 
+  towerName: Gun Tower
+  towerPrefab: {fileID: 8685888576904349970, guid: de47853a75a1c6d47b574eebb20f4198, type: 3}
+  upgradeDamage: 2
+  weapon:
+  - towerType: 2
+    sprite: {fileID: 21300000, guid: 315de8550438f7f4d8f9733eb1d196df, type: 3}
+    damage: 1
+    upgradeDamage: 1
+    rate: 0.25
+    range: 1.5
+    cost: 0
+    sell: 24
+  - towerType: 2
+    sprite: {fileID: 21300000, guid: c31c398f18b1aed43a53e3d565fa23b7, type: 3}
+    damage: 2
+    upgradeDamage: 2
+    rate: 0.225
+    range: 1.5
+    cost: 0
+    sell: 44
+  - towerType: 2
+    sprite: {fileID: 21300000, guid: b4c22bf898317e743abf649375a62e5e, type: 3}
+    damage: 4
+    upgradeDamage: 2
+    rate: 0.2
+    range: 1.5
+    cost: 0
+    sell: 96
+  - towerType: 2
+    sprite: {fileID: 21300000, guid: 5473544145f52624a9c9f1c3e488f144, type: 3}
+    damage: 8
+    upgradeDamage: 3
+    rate: 0.175
+    range: 1.5
+    cost: 0
+    sell: 201
+  - towerType: 2
+    sprite: {fileID: 21300000, guid: a34b569702d76544b8c5bbae3c7b08b6, type: 3}
+    damage: 16
+    upgradeDamage: 4
+    rate: 0.15
+    range: 1.5
+    cost: 0
+    sell: 400

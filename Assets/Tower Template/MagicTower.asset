@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5de963a130a4174ea0f5af0120b2d81, type: 3}
+  m_Name: MagicTower
+  m_EditorClassIdentifier: 
+  towerName: Magic Tower
+  towerPrefab: {fileID: 4691500309147853865, guid: e9483509715105e4c8e92ca7ff3314af, type: 3}
+  upgradeDamage: 5
+  weapon:
+  - towerType: 1
+    sprite: {fileID: 21300000, guid: f7f5aa62fe5c4104cbe55aedd1f9f51f, type: 3}
+    damage: 5
+    upgradeDamage: 3
+    rate: 1.25
+    range: 3
+    cost: 0
+    sell: 24
+  - towerType: 1
+    sprite: {fileID: 21300000, guid: 4958a29e14c1709499c03d68f0b480db, type: 3}
+    damage: 10
+    upgradeDamage: 4
+    rate: 1.25
+    range: 3.25
+    cost: 0
+    sell: 44
+  - towerType: 1
+    sprite: {fileID: 21300000, guid: 98fae2d89ed16944d80c1000e3908a79, type: 3}
+    damage: 20
+    upgradeDamage: 5
+    rate: 1.25
+    range: 3.5
+    cost: 0
+    sell: 96
+  - towerType: 1
+    sprite: {fileID: 21300000, guid: 3966e68baa301cc44b02488fafa00780, type: 3}
+    damage: 40
+    upgradeDamage: 6
+    rate: 1.25
+    range: 3.75
+    cost: 0
+    sell: 201
+  - towerType: 1
+    sprite: {fileID: 21300000, guid: 40a3d3e294eaa944580ffc08af959ea7, type: 3}
+    damage: 80
+    upgradeDamage: 7
+    rate: 1.25
+    range: 4
+    cost: 0
+    sell: 400
