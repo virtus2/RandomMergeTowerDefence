@@ -3,9 +3,9 @@ Simple tower defence for android
 
 
 ### Features
-Infinite waves
-Merge tower
-4 random unique towers
+* Infinite waves
+* Merge tower
+* 4 random unique towers
 
 
 ### Screenshots
