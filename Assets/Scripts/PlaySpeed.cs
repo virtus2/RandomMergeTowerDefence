@@ -6,8 +6,6 @@ using UnityEngine.UI;
 public class PlaySpeed : MonoBehaviour
 {
     [SerializeField]
-    GoogleAdMob googleAdMob;
-    [SerializeField]
     private Sprite fast;
     [SerializeField]    
     private Sprite normal;
@@ -15,7 +13,7 @@ public class PlaySpeed : MonoBehaviour
     private Image image;
     private bool fastPlay = false;
     private float speedBeforePause = 1;
-    public bool watchedAd = false;
+    public bool watchedAd = true;
     private void Awake()
     {
         fastPlay = false;
@@ -35,7 +33,7 @@ public class PlaySpeed : MonoBehaviour
         else if (watchedAd == false && fastPlay == false)
         {
             // 堡绊 救好绊 1硅加老 版快
-            googleAdMob.ShowRewardedInterstitialAd();
+            // googleAdMob.ShowRewardedInterstitialAd();
         }
         else if(watchedAd == true && fastPlay == false)
         {
